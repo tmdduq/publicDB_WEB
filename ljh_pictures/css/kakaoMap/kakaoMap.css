@@ -1,0 +1,31 @@
+.overlaybox {position:relative;width:360px;height:350px;background:url('/ljh_pictures/css/kakaoMap/box.png') no-repeat;padding:10px 10px;}
+.overlaybox div, ul {overflow:hidden;margin:0;padding:0;}
+.overlaybox li {list-style: none;}
+.overlaybox .boxtitle {color:#fff;font-size:16px;font-weight:bold;margin-bottom:8px;}
+.first .text {color:#fff;font-weight:bold;}
+.first .movietitle {position:absolute;width:100%;bottom:0;background:rgba(0,0,0,0.4);padding:7px 15px;font-size:14px;}
+.overlaybox ul {width:247px;}
+.overlaybox li {position:relative;margin-bottom:2px;background:#2b2d36;padding:5px 10px;color:#aaabaf;line-height: 1;}
+.overlaybox li span {display:inline-block;}
+.overlaybox li .number {font-size:16px;font-weight:bold;}
+.overlaybox li .title {font-size:13px;}
+.overlaybox li .count {position:absolute;margin-top:5px;right:15px;font-size:10px;}
+.overlaybox li:hover {color:#fff;background:#d24545;}
+.overlaybox li:hover .up {background-position:0 0px;}
+.overlaybox li:hover .down {background-position:0 -20px;}   
+
+.wrap {position: absolute;left: 0;bottom: 40px;width: 300px;height: 140px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;line-height: 1.5;}
+.wrap * {padding: 0;margin-bottom: 1px;}
+.wrap .info {width: 296px;height: 136px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
+.wrap .info:nth-child(1) {border: 2px solid #a17272}
+.info .title {padding: 0 0 0 10px;height: 25px;background: #ffe4c4;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+.wrap:hover {}
+.info .body {position: relative;overflow: hidden; height: 110px;}
+.info .desc {position: relative;margin: 13px 0 0 110px;height: 75px;}
+.desc .ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap; margin-bottom : 5px;}
+.desc .jibun {font-size: 11px;color: #463c3c;margin-top: -2px;}
+.info .img {position: absolute;top: 4px;left: 5px;width: 100px;height: 100px;border: 1px solid #a17272;color: #888;overflow: hidden;}
+.buss { position: absolute; top: -175px; left: 125px; width: 25px; height: 21px; border: 1px solid #a17272;}
+.buss:hover {cursor: pointer; opacity:0.1; }
+.buss_imageView { position: absolute; top: -143px; left: -134px; width: 95px; height: 95px; opacity:0; border: 0px;}
+.buss_imageView:hover {cursor: pointer; opacity: 0.3;}
